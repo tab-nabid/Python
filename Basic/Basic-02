@@ -1,0 +1,68 @@
+#int type data
+
+nabid = 5675576
+print(type(nabid))
+
+#floating type data
+abid = 456.78
+print(type(abid))
+
+#complex type data
+
+doly = 654655j
+print(type(doly))
+
+MyName = 'Nabid'
+YourName = 'Zaman'
+print("My name is" + ' ' + MyName + ' ' + YourName)
+
+#boolean type data
+booll = False
+print(type(booll))
+
+x=10
+y=10
+print(x==y)
+
+#string formating
+Name ='Nabid Zaman'
+Age = 23
+print(f"My name is {Name} and my age is {Age}")
+
+num1 = 45
+num2 = 46
+print(f"The sum is {34+16}")
+
+#binary type data
+hablulist = [1,2,3,4,54,255,254]
+b = bytes(hablulist)
+print(type(b))
+print(b[4])
+
+#bytearray
+Hablulist = [1,2,3,4,54,255,254]
+b1 = bytearray(Hablulist)
+print(type(b1))
+b1[2]=100
+print(b1[2])
+
+#Sequence type data list
+
+li = ["Nabid","Abid","Hasibul"]
+print(li)
+print(type(li))
+li[2]='Doly'
+print(li)
+
+#Sequence type data tuple
+
+tup=(12,3,4)
+print(tup)
+print(type(tup))
+
+#range type data
+
+ran = range(6)
+print(ran)
+for i in ran:
+    print(i )

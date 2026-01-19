@@ -1,0 +1,30 @@
+#Arithmetic operator
+'''a = 4
+b = 4
+sum=a+b
+sub=a-b
+multi=a*b
+div=a/b
+mod=a%b
+exp=a**b
+fd=
+print("Sum =",sum)
+print("Sub =",sub)
+print("Multiplication",multi)
+print("Division =",div)
+print("Modulus =",mod)
+print("Exponentiation =",exp)'''
+
+a=12
+a+=3
+print(a)
+
+a-=10
+print(a)
+
+#swaping
+c=34
+d=50
+c,d = d,c
+print("c=",c)
+print("d=",d)

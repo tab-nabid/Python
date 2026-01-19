@@ -1,0 +1,4 @@
+userName = input("Enter your username: ")
+passWord = input("Enter your password: ")
+print(userName)
+print(passWord)

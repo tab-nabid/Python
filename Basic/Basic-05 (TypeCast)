@@ -1,0 +1,11 @@
+name = "123"
+print(type(int(name)))
+print(int(name))
+
+number = "50"
+print(type(float(number)))
+print(float(number))
+
+num = 45.2
+print(type(num))
+print(int(num))

@@ -1,0 +1,14 @@
+#merge two string merge
+
+number1 = ["Nabid"]
+number2 = ["Zaman"]
+number3 = number1 + number2
+print(number3)
+
+#merge two number
+
+number4 = [10,20,30,40,50]
+number5 = [60,70,80,90,100]
+
+number4.extend(number5)
+print(number4)

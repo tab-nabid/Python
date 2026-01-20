@@ -1,0 +1,17 @@
+#number type
+
+number = [34,2,45,3,5,30]
+number.sort()
+print(number)
+
+#string type
+
+language = ["Bangla","Englisg","Pakistani","Arabic"]
+language.sort()
+print(language)
+
+#sort reverse
+
+reverseSort = [23,45,67,88,90,91]
+reverseSort.sort(reverse=True)
+print(reverseSort)

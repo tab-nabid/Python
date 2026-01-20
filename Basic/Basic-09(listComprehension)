@@ -1,0 +1,3 @@
+listCom = [12,10,2,3,4]
+double = [i*3 for i in listCom]
+print(double)

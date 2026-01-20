@@ -1,0 +1,17 @@
+#python loop
+
+loopList = ["Marjia","Munni","Mishu","Jamila"]
+for prem in loopList:
+   print(prem)
+
+#position/ index jante
+for i in range(len(loopList)):
+    print(i)
+
+#while loop
+
+loopList = ["Marjia","Munni","Mishu","Jamila"]
+y=0
+while y<len(loopList):
+    print(loopList[y])
+    y=y+1

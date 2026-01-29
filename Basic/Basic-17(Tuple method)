@@ -1,0 +1,9 @@
+#index() method
+nabid = ("Bubly","Opu","Shakib",23,56)
+Nabid = nabid.index("Shakib")
+print(Nabid)
+
+#count() method
+countmethod = (12,12,34,56,89,89,100)
+NaBUD = countmethod.count(100)
+print(NaBUD)

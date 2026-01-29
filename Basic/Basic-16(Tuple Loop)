@@ -1,0 +1,17 @@
+Looptuple = ("Mahi","Porimoni","Dighi","Mondira",12)
+
+#for i in Looptuple:
+    #print(i)
+
+for x in range(len(Looptuple)):
+    #print(x)
+    print(Looptuple[x])
+
+
+# use while loop
+
+shopno = (12,34,56,67,89)
+i=0
+while i<len(shopno):
+    print(shopno[i])
+    i = i+1

@@ -1,0 +1,51 @@
+newTuple = (12,34,"Nabid",False)
+print(type(newTuple))
+print(newTuple)
+
+#Acces tuple items
+#access by index number
+thistuple = ("Nabid","Abid","Tayeba","Amma")
+print(thistuple[2])
+
+#access by negative index
+
+thistuple1 =("Nabid","Abid","Tayeba","Amma")
+print(thistuple1[-3])
+
+#access item by ranges of index
+
+thistuple2 = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple2[1:5])
+
+#Update tuple append method
+
+NabidTuple = ("Nabid","Abid","Tayeba","Amma")
+Na = list(NabidTuple)
+Na.append("Rukon")
+NabidTuple=tuple(Na)
+print(NabidTuple)
+
+#Update tuple replace value
+
+Bangladesh = ("Pakistan",23,33,43,53)
+Mymensingh= list(Bangladesh)
+Mymensingh[0] = 13
+Bangladesh= tuple(Mymensingh)
+print(Bangladesh)
+
+#tuple unpacking Normal method
+
+unpacktuple=(12,34,56,78,90,76)
+(a,b,c,d,e,f) = unpacktuple
+print(f)
+
+##tuple unpacking Asterisk method
+
+asterisk = (22,24,45,47,100)
+
+(*a,b,c) = asterisk
+print(b,c)
+
+NABIDTuple = (100,200,50,60,70,1000)
+(b,e,*f,) = NABIDTuple
+print(b,f)

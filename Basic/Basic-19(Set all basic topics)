@@ -1,0 +1,32 @@
+mySet = {12,34,56,56,78,45,"Nabid",True}
+print(mySet)
+
+
+
+#access item by using loop
+nabidSet = {10,20,30}
+for item in nabidSet:
+    print(item)
+
+
+    #item access by using in keyword
+    sets = {10,20,34}
+    print(10 in sets)
+    print(30 in sets)
+
+    # Add items in set
+    NabidSet = {"Nabid","Abid","Amma"}
+    NabidSet.add("Abba")
+    print(NabidSet)
+
+    #add sets
+    Set1 = {"Nabid","Abid","Amma"}
+    Set2 = {"abbu"}
+    Set1.update(Set2)
+    print(Set1)
+
+    #add any iterable
+    thisset = {"apple","banana","cherry"}
+    mylist = ["kiwi","orange"]
+    thisset.update(mylist)
+    print(thisset)

@@ -1,0 +1,20 @@
+#remove() method
+set = {12,34,56,78,90}
+set.remove(12)
+print(set)
+
+#discard() method
+set1 = {"Abid","Nabid","Amma","Abba"}
+set1.discard("Tayeba")
+print(set1)
+
+# use pop() method
+s = {1,2,3,4,5}
+s.pop()
+print(s)
+
+# use clear() method
+
+dhala = {12,34,45,6,"Nabid"}
+dhala.clear()
+print(dhala)

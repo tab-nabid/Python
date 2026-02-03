@@ -1,0 +1,17 @@
+Studentinfor ={
+    "Nabid":{
+        "Name" : "Nabid Zaman",
+        "ID" : 251-35-159,
+        "Department" : "Software Engineering",
+        "Mobile number" : 1774178689,
+
+    },
+"Abid" :{"Name" : "Abid Zaman",
+        "ID" : 251-35-158,
+        "Department" : "Software Engineering1233",
+        "Mobile number" : 17741786857569,
+         "Location": "Dhala",
+
+}
+}
+print(Studentinfor["Abid"]["Location"])

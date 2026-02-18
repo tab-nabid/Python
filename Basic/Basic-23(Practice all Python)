@@ -1,0 +1,58 @@
+print('Nabid')
+print(531578)
+
+name = 54154j
+print(name)
+
+print(type(name))
+first = "Ma Babar"
+last = "Dua"
+last1 = "Suru korlam"
+print("Shuno shobai" + ' ' + first + ' ' + last + ' ' + last1)
+
+bol = True
+print(type(bol))
+
+x = 8
+y = 10
+print(x<y)
+
+NAME = "Nabid Zaman"
+Age = 24
+print("My name is {} and i am {} years old.".format(NAME,Age))
+
+List = ["Apple","Orange","lemon","Cherry"]
+print(type(List))
+print(List)
+
+ran = range(6)
+for i in ran:
+    print(i)
+
+#Sum,sub,multiplication,division
+
+A = 6
+B = 3
+Sum = A + B
+print(Sum)
+Sub = A - B
+print(Sub)
+Multi = A * B
+print(Multi)
+#Floor Division
+print(A//B)
+
+
+#Swapping
+c = 50
+d = 60
+c,d = d,c
+print("C = ",c)
+print("d =",d)
+
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+
+print(username)
+print(password)
+
